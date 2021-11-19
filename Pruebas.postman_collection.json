@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "3e45242e-51a4-4e7f-9ad4-14068165a44d",
+		"name": "Pruebas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 100,\r\n    \"name\": \"DEMO\",\r\n    \"documentNumber\": \"12332121\",\r\n    \"salary\": 4100,\r\n    \"age\": 20,\r\n    \"profile\": \"AAA\",\r\n    \"adicional1\": \"\",\r\n    \"adicional2\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44398/api/Employees",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44398",
+					"path": [
+						"api",
+						"Employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
